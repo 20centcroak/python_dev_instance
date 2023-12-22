@@ -6,3 +6,5 @@ services:
       context: ..
       dockerfile: .devcontainer/dockerfile_dev
     command: sleep infinity
+    volumes: 
+      - ..:/workspaces
