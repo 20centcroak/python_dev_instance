@@ -1,0 +1,25 @@
+{
+	"name": "pyDevTemplate",
+	"build": {
+		"context": "..",
+		"dockerfile": "dockerfile_dev"
+	},
+	// "dockerComposeFile": "docker-compose_dev.yml",
+    // "service": "app",
+	// "workspaceFolder": "/workspaces",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.pylint",
+				"ms-python.black-formatter",
+				"donjayamanne.git-extension-pack"
+			],
+			"settings": {
+                "python.defaultInterpreterPath": "/usr/local/bin/python",
+				"python.editor.defaultFormatter": "ms-python.black-formatter",
+    			"python.editor.formatOnSave": true
+            }
+		}
+	}
+}
