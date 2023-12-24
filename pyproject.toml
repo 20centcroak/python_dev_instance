@@ -1,8 +1,8 @@
 [tool.black]
-line-length = 40
+line-length = 100
 
 [tool.pylint."MESSAGES CONTROL"]
-max-line-length = 40
+max-line-length = 100
 disable = [
     "C0114",  # Missing module docstring
     "C0115",  # Missing class docstring
